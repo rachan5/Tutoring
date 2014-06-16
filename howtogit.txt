@@ -1,0 +1,13 @@
+How to pull in upstream changes:
+
+git fetch upstream
+git merge upstream/master
+
+How to commit:
+
+git add [FILES YOU WANT TO ADD]
+git commit -m '[DESCRIPTION GOES HERE]'
+git remote add origin https://github.com/rachan5/[REPO YOU PUSHING TO].git
+git push origin master
+
+
